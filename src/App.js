@@ -1,13 +1,11 @@
+import Header from "./components/Header";
+import Sections from "./components/Sections";
 function App() {
   return (
-    <div className="App">
-      <section>
-        <h1>Hello world!</h1>
-      </section>
-      <section>
-        <h2>Grid!</h2>
-      </section>
-    </div>
+    <>
+      <Header></Header>
+      <Sections></Sections>
+    </>
   );
 }
 
